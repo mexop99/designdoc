@@ -1,0 +1,67 @@
+h1{
+  font-weight: bold;
+}
+.mt-10{
+  margin-top: 10;
+}
+
+#invoice{
+  padding: 20px;
+}
+.invoice {
+  position: relative;
+  background-color:#fff;
+  min-height: 680px;
+  padding: 15px;
+  /* box-shadow: 1px 2px 20px rgba(0, 0, 0, .5); */
+}
+.name a{
+  color: #ff8000;
+  font-weight: bold;
+}
+
+.invoice header {
+  padding: 10px 0;
+  margin-bottom: 20px;
+  border-bottom: 5px solid #3989c6
+}
+
+#logosiplah{
+  text-align: right;
+  margin-top: 20px;
+}
+#judul{
+  text-align: center;
+}
+#nomortransaksi{
+  float: left;
+  font-weight: bold;
+}
+#nomortransaksi span{
+  width: 150px;
+  font-weight: initial;
+  text-align:left;
+  margin-right: 20px;
+  display: inline-block;
+}
+.tab2{
+  margin-left: 100px;
+}
+.rowvalue{
+  font-weight: bold;
+}
+
+#headertable{
+  background-color:#1B1464;
+  font-weight: bold;
+  text-align: center;
+  color: #fff;
+}
+
+.tandatangan{
+  margin-top: 50px;
+}
+
+.mt-18{
+  margin-top: 150px;
+}
