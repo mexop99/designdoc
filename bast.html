@@ -1,14 +1,3 @@
-<?php
-$day = "Rabu";
-$date = "Dua Belas";
-$month = "Desember";
-$year = "Dua Ribu Sembilan Belas";
-
-$no_transaction = "SO1234";
-$date_transaction = "12/12/2019";
-?>
-
-
 <!doctype html>
 <html lang="en">
 
@@ -18,15 +7,16 @@ $date_transaction = "12/12/2019";
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <link rel="stylesheet" href="style/index2.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="style/bast.css">
 
     <title>BAST</title>
 </head>
 
 <body>
-    <div id="invoice">
-        <div class="invoice overvflow-auto">
+    <div id="bast">
+        <div class="bast overvflow-auto">
             <div style="min-width: 600px">
                 <header>
                     <div class="row">
@@ -42,23 +32,24 @@ $date_transaction = "12/12/2019";
                 <main>
                     <div class="judul" id="judul">
                         <h1>BERITA ACARA SERAH TERIMA</h1>
+                        <h6>No: SO1234/BAST/XII/2019</h6>
                     </div>
-                    <div class="mt-10">
-                        <p>Pada hari ini <b><?php echo $day; ?></b>, tanggal <b><?php echo $date; ?></b> bulan <b><?php echo $month; ?></b> tahun <b><?php echo $year; ?></b>, sesuai dengan: </p>
+                    <div class="mt-100">
+                        <p>Pada hari ini <b>...................................</b>, tanggal <b>...................................</b> bulan <b>...................................</b> tahun <b>......................................................................</b>, sesuai dengan: </p>
                     </div>
                     <div class="nomor" id="nomortransaksi">
-                        <div><span>Nomor Tagihan</span>: <?php echo $no_transaction; ?></div>
-                        <div><span>Tanggal Transaksi</span>: <?php echo $date_transaction; ?> </div>
+                        <div><span>Nomor Tagihan</span>: SO1234</div>
+                        <div><span>Tanggal Transaksi</span>: 12/11/2019 </div>
                     </div>
                     <br><br><br>
                     <p>Yang bertandatangan di bawah ini:</p>
                     <div>
-                        <table class="tab2">
+                        <table class="user">
                             <tr>
                                 <td>1.</td>
                                 <td>Nama</td>
                                 <td>:</td>
-                                <td class="rowvalue">Tri cahyo</td>
+                                <td class="font-weight-bold">Tri cahyo</td>
                             </tr>
                             <tr>
                                 <td></td>
@@ -121,91 +112,100 @@ $date_transaction = "12/12/2019";
                         </table>
                         <div>
                             <p>
-                                PIHAK PERTAMA menyerahkan hasil pekerjaan <b>Transaksi Online Melalui SIPLah Toko Ladang</b> kepada PIHAK KEDUA, dan PIHAK KEDUA telah menerima hasil pekerjaan tersebut dalam jumlah yang lengkap dan kondisi yang baik sesuai dengan rincian berikut:
+                                PIHAK PERTAMA menyerahkan hasil pekerjaan <b>Transaksi Online Melalui SIPLah Toko
+                                    Ladang</b> kepada PIHAK KEDUA, dan PIHAK KEDUA telah menerima hasil pekerjaan
+                                tersebut dalam jumlah yang lengkap dan kondisi yang baik sesuai dengan rincian berikut:
                             </p>
                         </div>
                         <div class="table-responsive">
-                            <table class="table table-hover table-striped" border="1">
-                                <thead id="headertable">
-                                    <td>Number</td>
-                                    <td>Description</td>
-                                    <td>Quantity</td>
-                                    <td>Kondisi</td>
+                            <table class="table table-hover table-striped table-sm" border="1">
+                                <thead id="headertable" class="bg-primary font-weight-bold text-align-center">
+                                    <th>Number</th>
+                                    <th>Description</th>
+                                    <th>Quantity</th>
+                                    <th>Unit Price</th>
+                                    <th>Sub Total Price</th>
+                                    <th>Condition <small>[ √ ]Baik ∥ [X] Rusak</small></th>
                                 </thead>
                                 <tbody>
                                     <tr>
                                         <td scope="row">1</td>
-                                        <td>Samsung 9</td>
+                                        <td>Samsung 91111111111111111111111111111111111111</td>
                                         <td>132</td>
-                                        <td>Baik</td>
+                                        <td class="text-right">1.999.000</td>
+                                        <td class="text-right">26.268.000</td>
+                                        <td></td>
                                     </tr>
                                     <tr>
                                         <td scope="row">2</td>
                                         <td>Samsung 1</td>
                                         <td>132</td>
-                                        <td>Baik</td>
+                                        <td class="text-right">1.999.000</td>
+                                        <td class="text-right">26.268.000</td>
+                                        <td class="text-right"></td>
                                     </tr>
                                     <tr>
                                         <td scope="row">3</td>
                                         <td>Samsung 9</td>
                                         <td>132</td>
-                                        <td>Baik</td>
+                                        <td class="text-right">1.999.000</td>
+                                        <td class="text-right">26.268.000</td>
+                                        <td></td>
                                     </tr>
                                     <tr>
                                         <td scope="row">4</td>
                                         <td>Samsung 1</td>
                                         <td>132</td>
-                                        <td>Baik</td>
+                                        <td class="text-right">1.999.000</td>
+                                        <td class="text-right">26.268.000</td>
+                                        <td></td>
                                     </tr>
                                     <tr>
                                         <td scope="row">3</td>
                                         <td>Samsung 9</td>
                                         <td>132</td>
-                                        <td>Baik</td>
+                                        <td class="text-right">1.999.000</td>
+                                        <td class="text-right">26.268.000</td>
+                                        <td></td>
                                     </tr>
                                     <tr>
                                         <td scope="row">4</td>
                                         <td>Samsung 1</td>
                                         <td>132</td>
-                                        <td>Baik</td>
+                                        <td class="text-right">1.999.000</td>
+                                        <td class="text-right">26.268.000</td>
+                                        <td></td>
                                     </tr>
                                     <tr>
                                         <td scope="row">3</td>
                                         <td>Samsung 9</td>
                                         <td>132</td>
-                                        <td>Baik</td>
+                                        <td class="text-right">1.999.000</td>
+                                        <td class="text-right">26.268.000</td>
+                                        <td></td>
                                     </tr>
                                     <tr>
                                         <td scope="row">4</td>
                                         <td>Samsung 1</td>
                                         <td>132</td>
-                                        <td>Baik</td>
+                                        <td class="text-right">1.999.000</td>
+                                        <td class="text-right">26.268.000</td>
+                                        <td></td>
+                                    </tr>
+                                    <tr>
+                                        <td colspan="4" class="text-center font-weight-bold">Total</td>
+                                        <td class="font-weight-bold text-right">Rp.123.456.000</td>
+                                        <td></td>
                                     </tr>
                                 </tbody>
                             </table>
                         </div>
                     </div>
                     <div>
-                        <p>Dengan diterimanya Berita Acara Serah Terima ini PIHAK KEDUA akan melunasi pembayaran pada:</p>
-                        <div>
-                            <table class="tab2">
-                                <tr>
-                                    <td>Hari</td>
-                                    <td>:</td>
-                                    <td class="rowvalue">Rabu</td>
-                                </tr>
-                                <tr>
-                                    <td>Tanggal</td>
-                                    <td>:</td>
-                                    <td class="rowvalue">12/12/2019</td>
-                                </tr>
-                            </table>
-                        </div>
-                        <br>
-                        <div>
-                            <p>Berita Acara Serah Terima ini berfungsi sebagai bukti serah terima hasil pekerjaan kepada PIHAK KEDUA, untuk selanjutnya dicatat pada buku penerimaan barang sekolah.</p>
-                            <p>Demikian Berita Acara Serah Terima ini dibuat dengan sebenarnya untuk dipergunakan sebagaimana seharusnya.</p>
-                        </div>
+                        <p>Berita Acara Serah Terima ini berfungsi sebagai bukti serah terima hasil pekerjaan kepada
+                            PIHAK KEDUA, untuk selanjutnya dicatat pada buku penerimaan barang sekolah.</p>
+                        <p>Demikian Berita Acara Serah Terima ini dibuat dengan sebenarnya untuk dipergunakan
+                            sebagaimana seharusnya.</p>
                     </div>
                     <div class="tandatangan">
                         <table class="table">
@@ -242,10 +242,6 @@ $date_transaction = "12/12/2019";
                                     </div>
                                 </td>
                             </tr>
-                            <tr>
-                                <td colspan="2">
-                                </td>
-                            </tr>
                         </table>
                     </div>
                 </main>
@@ -253,30 +249,34 @@ $date_transaction = "12/12/2019";
         </div>
     </div>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    <footer>
+        <div class="card">
+            <div class="card-header">
+                Note:
+            </div>
+            <div class="card-body">
+                <blockquote class="blockquote mb-0">
+                    <footer class="blockquote-footer">Harga sudah termasuk <cite title="Source Title">Pajak</cite></footer>
+                    <footer class="blockquote-footer">blockquote-footer</footer>
+                    <footer class="blockquote-footer">Bank Jatim Cab. Kalibutuh a.n PT. Ladang Karya Husada  (1711000735)</footer>
+                    <footer class="blockquote-footer">Bank Bali Dwipa Jaya a. n PT. Ladang Karya Husada (0100111007481)</footer>
+                    <footer class="blockquote-footer">Bank Jateng a.n PT. Ladang Karya Husada (1002008889)</footer>
+                </blockquote>
+            </div>
+        </div>
+    </footer>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
+    </script>
 </body>
+
 
 </html>
