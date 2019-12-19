@@ -1,0 +1,172 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="style/styledoc.css">
+
+    <title>Invoice | SO1234</title>
+</head>
+
+<body>
+    <div class="kanvas">
+        <div class="kanvas overvflow-auto">
+            <div style="min-width: 600px">
+                <header>
+                    <div class="row">
+                        <div class="col" id="inv">
+                            <h1 class="text-left"><span id="invoice">INVOICE</span></h1>
+                        </div>
+                        <div class="col text-right">
+                            <img src="img/logoladang.png" alt="logo" style="width: 200px">
+                        </div>
+                    </div>
+                </header>
+                <main>
+                    <div class="row text-right invoice-total">
+                        <div class="col">
+                            <div>INVOICE TOTAL:</div>
+                            <h3 class="font-weight-bold text-success"><u>Rp. 123.456.0000,-</u></h3>
+                        </div>
+
+                    </div>
+                    <div class="row contacts">
+                        <div class="col text-left">
+                            <div class="text-gray-light">Invoice to:</div>
+                            <h5 class="to">SMKN 1 SUBUH</h5>
+                            <div>0812345678</div>
+                            <div class="address">Jl. 1 Subuh</div>
+                            <div class="email"><a href="mailto:john@example.com">ks.smkn1subuh@gmail.com</a></div>
+                        </div>
+                        <div class="col text-right">
+                            <div>Invoice Number:</div>
+                            <h5 class="font-weight-bold">INV-SO1234</h5>
+                            <div class="date">Date of Invoice: 01/10/2018</div> <!-- timestamp saat pesanan dibuat -->
+                            <div class="date">Due Date: 30/10/2018</div>
+                        </div>
+                    </div>
+
+                    <div class="table-responsive">
+                        <table class="table table-hover table-striped table-sm">
+                            <thead id="headertable" class="bg-primary font-weight-bold text-align-center">
+                                <th>Number</th>
+                                <th>Description</th>
+                                <th>Quantity</th>
+                                <th>Unit Price</th>
+                                <th>Sub Total Price</th>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td scope="row">1</td>
+                                    <td>Samsung 91111111111111111111111111111111111111</td>
+                                    <td>132</td>
+                                    <td class="text-right">1.999.000</td>
+                                    <td class="text-right">26.268.000</td>
+                                </tr>
+                                <tr>
+                                    <td scope="row">2</td>
+                                    <td>Samsung 1</td>
+                                    <td>132</td>
+                                    <td class="text-right">1.999.000</td>
+                                    <td class="text-right">26.268.000</td>
+                                </tr>
+                                <tr>
+                                    <td scope="row">3</td>
+                                    <td>Samsung 9</td>
+                                    <td>132</td>
+                                    <td class="text-right">1.999.000</td>
+                                    <td class="text-right">26.268.000</td>
+
+                                </tr>
+                                <tr>
+                                    <td scope="row">4</td>
+                                    <td>Samsung 1</td>
+                                    <td>132</td>
+                                    <td class="text-right">1.999.000</td>
+                                    <td class="text-right">26.268.000</td>
+                                </tr>
+                                <tr>
+                                    <td scope="row">3</td>
+                                    <td>Samsung 9</td>
+                                    <td>132</td>
+                                    <td class="text-right">1.999.000</td>
+                                    <td class="text-right">26.268.000</td>
+                                </tr>
+                                <tr>
+                                    <td scope="row">4</td>
+                                    <td>Samsung 1</td>
+                                    <td>132</td>
+                                    <td class="text-right">1.999.000</td>
+                                    <td class="text-right">26.268.000</td>
+                                </tr>
+                                <tr>
+                                    <td scope="row">3</td>
+                                    <td>Samsung 9</td>
+                                    <td>132</td>
+                                    <td class="text-right">1.999.000</td>
+                                    <td class="text-right">26.268.000</td>
+                                </tr>
+                                <tr>
+                                    <td scope="row">4</td>
+                                    <td>Samsung 1</td>
+                                    <td>132</td>
+                                    <td class="text-right">1.999.000</td>
+                                    <td class="text-right">26.268.000</td>
+                                </tr>
+                            </tbody>
+                            <tfoot>
+
+                                <tr>
+                                    <td colspan="2"></td>
+                                    <td colspan="2" class="text-right font-weight-bold">Ongkos Kirim</td>
+                                    <td class="font-weight-bold text-right"> Rp. 19.000</td>
+                                </tr>
+                                <tr class="noborder">
+                                    <td colspan="2"></td>
+                                    <td colspan="2" class="text-right font-weight-bold">Total</td>
+                                    <td class="font-weight-bold text-right">Rp.123.456.000</td>
+                                </tr>
+                            </tfoot>
+                        </table>
+                        <div class="thanks">Thank you!</div>
+                        <div class="notices">
+                            <div class="font-weight-bold">NOTICE:</div>
+                            <div class="notice"> Harga sudah termasuk Pajak</div>
+                            <div class="notice">Pilih Salah Satu Bank:</div>
+                            <div class="notice">- Bank Jatim Cab. Kalibutuh a.n PT. Ladang Karya Husada (1711000735)
+                            </div>
+                            <div class="notice">- Bank Bali Dwipa Jaya a. n PT. Ladang Karya Husada (0100111007481)
+                            </div>
+                            <div class="notice">- Bank Jateng a.n PT. Ladang Karya Husada (1002008889)</div>
+                        </div>
+                    </div>
+                </main>
+                <footer>
+                    Invoice was created on a computer and is valid without the signature and seal.
+                </footer>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
+    </script>
+</body>
+
+</html>
