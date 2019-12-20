@@ -1,0 +1,20 @@
+#watermark {
+    margin: auto;
+    top: 400px;
+    left: 5%;
+    display: inline-block;
+    position: absolute;
+    opacity: 0.1;
+    filter: alpha(opacity=100);
+}
+#content {
+    position: relative;
+    display: block;
+}
+
+#bg-text {
+    color: lightgrey;
+    font-size: 250px;
+    transform: rotate(300deg);
+    /* -webkit-transform:rotate(300deg); */
+}

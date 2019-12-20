@@ -1,5 +1,5 @@
 .kanvas {
-    padding: 20px;
+    padding: 10px;
 }
 
 header {
@@ -17,7 +17,7 @@ header .row{
     font-weight: bold;
 }
 #inv{
-    margin-top: 40px;
+    margin-top: 70px;
 }
 .invoice-total{
     margin-bottom: 10px;
@@ -53,4 +53,29 @@ footer {
     border-top: 1px solid rgb(115, 255, 0);
     padding: 8px 0;
     margin-top: 50px;
+}
+
+#nominal_id{
+    margin-top: 20px;
+}
+.mt-25{
+    margin-top: 25px;
+}
+
+/* digunakan pada kwitansi.html */
+.terbilang table tbody td{
+    background-color: #c1fafa;
+    padding: 15px;  
+}
+
+.terbilang #terbilang{
+    border-left: 6px solid blue;
+}
+
+.mt-100{
+    margin-top: 100px;
+}
+
+#kwitansi{
+    color: #2c3e50;
 }
