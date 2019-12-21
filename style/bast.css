@@ -29,9 +29,7 @@ h1{
   text-align: right;
   margin-top: 20px;
 }
-#judul{
-  text-align: center;
-}
+
 #nomortransaksi{
   float: left;
   font-weight: bold;
@@ -59,4 +57,8 @@ h1{
 }
 .blockquote{
   padding: 10px;
+}
+
+.padding-20{
+  padding: 20px;
 }

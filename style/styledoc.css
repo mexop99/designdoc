@@ -7,45 +7,54 @@ header {
     margin-bottom: 20px;
     border-bottom: 5px solid #3989c6;
 }
-header .row{
+
+header .row {
     margin-bottom: 0px;
 }
 
-#invoice{
+#invoice {
     border: 3px solid blue;
     padding: 10px;
     font-weight: bold;
 }
-#inv{
+
+#inv {
     margin-top: 70px;
 }
-.invoice-total{
+
+.invoice-total {
     margin-bottom: 10px;
     margin-right: 1px;
 }
 
-.table-responsive{
+.table-responsive {
     margin-top: 30px;
 }
-tfoot tr:last-child td{
+
+tfoot tr:last-child td {
     color: #3989c6;
     border-top: 1px solid #3989c6
 }
-.noborder td:first-child{
+
+.noborder td:first-child {
     border: none;
 }
+
 .thanks {
     margin-top: -50px;
     font-size: 2em;
     margin-bottom: 50px
 }
+
 .notices {
     padding-left: 6px;
     border-left: 6px solid #3989c6
 }
+
 .notices .notice {
     font-size: 1em
 }
+
 footer {
     width: 100%;
     text-align: center;
@@ -55,27 +64,43 @@ footer {
     margin-top: 50px;
 }
 
-#nominal_id{
+#nominal_id {
     margin-top: 20px;
 }
-.mt-25{
+
+.mt-25 {
     margin-top: 25px;
 }
 
 /* digunakan pada kwitansi.html */
-.terbilang table tbody td{
+.terbilang table tbody td {
     background-color: #c1fafa;
-    padding: 15px;  
+    padding: 15px;
 }
 
-.terbilang #terbilang{
+.terbilang #terbilang {
     border-left: 6px solid blue;
 }
 
-.mt-100{
+.mt-100 {
     margin-top: 100px;
 }
 
-#kwitansi{
+#kwitansi {
     color: #2c3e50;
+}
+
+.customer {
+    float: left;
+}
+
+.customer span {
+    width: 150px;
+    font-weight: initial;
+    text-align: left;
+    margin-right: 20px;
+    display: inline-block;
+}
+.customer p{
+    font-weight: normal;
 }
