@@ -62,3 +62,11 @@ h1{
 .padding-20{
   padding: 20px;
 }
+.table thead th{
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+}
+
+.table tbody td{
+  border-bottom: 1px solid black;
+}
